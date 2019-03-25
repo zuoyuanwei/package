@@ -2,11 +2,11 @@
 # -*- coding:utf-8 -*-
 
 # 树节点定义
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
 
 class Solution:

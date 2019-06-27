@@ -4,10 +4,7 @@ class Solution:
         self.sums = 0
 
     def Sum_Solution(self, n):
-        # write code here
-        def qiusum(n):
-            self.sums += n
-            n -= 1
-            return n > 0 and self.Sum_Solution(n)
-        qiusum(n)
+        self.sums += n
+        while n > 0:
+            return self.Sum_Solution(n - 1)
         return self.sums

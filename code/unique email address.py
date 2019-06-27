@@ -1,7 +1,4 @@
-# A = 'abcd.abcd@abcd.com'
-# B = A.split('.')
-# print(B)
-import re
+# 邮箱地址最简匹配。
 emails = ["fg.r.u.uzj+o.pw@kziczvh.com",
            "r.cyo.g+d.h+b.ja@tgsg.z.com",
            "fg.r.u.uzj+o.f.d@kziczvh.com",

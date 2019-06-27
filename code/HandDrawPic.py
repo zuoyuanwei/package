@@ -1,3 +1,4 @@
+# 图片转手绘风格。
 from PIL import Image
 import numpy as np
 vec_el = np.pi/2.2

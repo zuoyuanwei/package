@@ -1,3 +1,4 @@
+# 全国大学排名爬虫。
 import requests
 from bs4 import BeautifulSoup
 allUniv = []

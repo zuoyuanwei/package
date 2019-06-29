@@ -1,4 +1,5 @@
 # 快速排序算法，最坏时间复杂度为O(n^2)。
+# 数据越随机分布时，快速排序性能越好；数据越接近有序，快速排序性能越差。
 class QuickSort:
     def Quick(self, array, low, high):
         if low < high:
